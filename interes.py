@@ -4,6 +4,12 @@ Editor de Spyder
 
 Este es un archivo temporal.
 """
+import streamlit as st
+
+st.set_page_config(
+    layout="wide",  # Hace que la aplicación use todo el ancho de la pantalla
+    initial_sidebar_state="collapsed",  # Colapsa la barra lateral por defecto
+)
 
 
 
